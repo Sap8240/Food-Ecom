@@ -1,0 +1,223 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    color: azure;
+    width: 40vh;
+    height: 40vh;
+    position: relative;
+    top: -35vh;
+    padding: 0 20px 0 20px;
+    left: 30vh;
+    border-radius: 20px;
+}
+.img2 img{
+    width: 60vh;
+
+}
+.abtcontent{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 28vh;
+    justify-content: space-evenly;
+}
+.abttext{
+    width: 50vh;
+    height: 4vh;
+    padding:4vh;
+    margin-bottom: 20px;
+    font-family: "Playfair";
+   
+}
+.more{
+    border: 2px solid black;
+    padding: 10px;
+    width: 15vh;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.abttext h1{
+    margin-bottom:20px ;
+}
+.more:hover{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+/*End of abt*/
+.service-type{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.servicebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 225px;
+    height:360px;
+    margin: 26px;
+    border: 3px solid #c1c8b1;
+    border-radius: 12px;
+    text-align: center;
+}
+.servicebox img{
+    margin-top: 2px;
+    width: 220px;
+    height:220px;
+    margin-bottom: 0px;
+}
+.servicebox h1{
+    font-family: "Playfair";
+    font-size: 24px;
+   margin-top: 10px;
+}
+.servicebox p{
+    font-family: 'DM Sans';
+    font-size: 15px;
+    padding: 10px 20px 0px 20px;
+}
+.service-explore {
+    color:rgb(255, 0, 0);
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 16px;
+}
+.service-title{
+    font-family: "Playfair",'bold';
+    font-size: 55px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.625);
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.services{
+    padding: 100px 0 100px 0;
+}
+.servicebox:hover{
+    background-color: #875656;
+    color: aliceblue;
+    transform: translateY(-10px);
+    transition: all 200ms ease-out ;
+}
+#wed{
+    border-radius: 10px;
+}
+/*End of Service*/
+.service2 img{
+    width: 80vh;
+}
+.service2content{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    justify-content: space-around;
+}
+.service2text{
+    width: 50vh;
+    height: 4vh;
+    margin-top: 10px;
+    padding:4vh;
+    font-family: "Playfair";
+   
+}
+.moreservice{
+    border: 2px solid rgb(138, 14, 14);
+    padding: 20px;
+    width: 30vh;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: rgba(161, 5, 5, 0.927);
+
+}
+.service2text h1{
+    margin-bottom:20px ;
+    color: rgb(226, 38, 38);
+}
+/*End of service2*/
+.footer-type{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 50vh;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.footerbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22vh;
+    height:50vh;
+    margin: 26px;
+    margin-top: 15vh;
+    text-align: center;
+}
+.footerbox p{
+    font-family: 'DM Sans';
+    font-size: 15px;
+    padding: 10px 20px 0px 20px;
+}
+.footerbox .logo{
+    color: aliceblue;
+    margin-left: 10px;
+}
+.footer{
+    padding: 0px 0 15vh 0;
+    margin-top: 20px;
+    background-color: rgb(52, 54, 49);
+    color: azure;
+    margin-bottom:0;
+}
+.tag2 li img{
+    width:2.5vh
+}
+.tag2 li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+.tag2{
+    display: flex;
+    justify-content: center;
+}
+.tag21{
+    margin-left: 15vh;
+    margin-top:2vh;
+}
+.footerbox .logo p{
+    font-size: 18px;
+}
+.pages{
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+.pages a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Playfair";
+}
+.pages li{
+    padding-top: 15px;
+}
+.collage img{
+    width: 50vh;
+}
+.footerbox .logo p{
+    margin-bottom: 20px;
+}
+.copyright{
+    background-color: rgb(52, 54, 49);
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 5vh;
+}

@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Start of Contact Bar*/
+.header1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(71, 71, 68);
+    color: rgb(220, 224, 226);
+    padding: 9px 0px 7px 0px;
+}
+.tag1 li{
+    display: inline-block;
+
+}
+.contact{
+    display: inline;
+    margin-left: 20vh;
+}
+.tag1 img{
+    width:2.5vh;
+}
+nav{
+    margin-right: 20vh;
+}
+/*Contact bar ends*/
+.header2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 15px;
+background-color: #e3e5dbea;
+}
+.logo{
+    display: flex;
+    margin-left: 4vh;
+    align-items: center;
+    font-family: "Playfair";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(64, 63, 63);
+}
+.logo img{
+    width: 6vh;
+    margin-bottom: 5px;
+    margin-right: 1vh;
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar ul li{
+    margin-left: 2vh;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    padding-top: 2vh; 
+}
+.table{
+    margin-right: 2vh;
+    background-color: rgba(235, 237, 238, 0.844);
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin-top:2px;
+    margin-bottom: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 650;
+    cursor: pointer;
+    padding-top: 2vh; 
+    padding: 5px 10px 5px 10px;
+}
+.nav-bar ul li a:hover{
+    background-color:#c1c8b1;
+    padding: 4px;
+    border-radius: 30px;
+}
+.table:hover{
+    background-color: #676a61;
+    color: rgb(255, 255, 255);
+}
+/*end of nav bar*/
+
+.content-body{
+    background-image: url(bg.png);
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-features{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.title-features a{
+    text-decoration: none;
+}
+.table-book a{
+    background-color: rgb(205, 31, 31);
+    color: aliceblue;
+    padding: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.table-book a:hover{
+    background-color: rgba(236, 226, 226, 0.847);
+    color: red;
+    border: 2px solid red;
+}
+.menu a{
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+.menu a:hover{
+    background-color: rgb(92, 93, 87);
+    color: aliceblue;
+}
+.title-text{
+    text-align: center;
+    font-family: "Playfair";
+    width:400px;
+
+}
+.title-text h1{
+    font-size: 10vh;
+}
+.title-text p{
+    font-size: 20px;
+}
+/*End of main content*/
+.menu-type{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.menubox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    height:330px;
+    margin: 24px;
+    border: 3px solid #c1c8b1;
+    border-radius: 12px;
+    text-align: center;
+}
+.menubox img{
+    margin-top: 30px;
+    width: 100px;
+    height:100px;
+    margin-bottom: 20px;
+}
+.menubox h1{
+    font-family: "Playfair";
+    font-size: 24px;
+   
+}
+.menubox p{
+    font-family: 'DM Sans';
+    font-size: 15px;
+    padding: 10px 20px 0px 20px;
+}
+.menu-explore {
+    color:rgb(255, 0, 0);
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 16px;
+}
+.menu1-title{
+    font-family: "Playfair",'bold';
+    font-size: 55px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.625);
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.menu1{
+    padding: 100px 0 100px 0;
+}
+.menubox:hover{
+    background-color: #b9c2a5;
+    color: aliceblue;
+    transform: translateY(-10px);
+    transition: all 200ms ease-out ;
+}/*End of menu
